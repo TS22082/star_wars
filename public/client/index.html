@@ -10,13 +10,34 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>Home page</title>
   </head>
   <body>
     <div class="container">
-      <!-- Search Form -->
+      <!-- Main Jumbo -->
+      <div class="jumbotron">
+        <h1>Best Star Wars App Ever!!!</h1>
+        <h3>Our first full stack app</h3>
+        <hr />
+        <a href="/add">
+          <button class="btn btn-danger btn-lg">
+            <span class="fa fa-plus"></span> Add Character
+          </button>
+        </a>
 
+        <a href="/api">
+          <button class="btn btn-danger btn-lg">
+            <span class="fa fa-eye"></span>
+            View Characters
+          </button>
+        </a>
+      </div>
+      <!-- Search Form -->
       <div class="input-group input-group-lg">
         <input type="text" class="form-control" id="search" />
         <div class="input-group-append">
