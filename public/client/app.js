@@ -48,6 +48,7 @@ $(document).ready(() => {
       data: newChar
     }).then(res => {
       console.log(res);
+      window.location.href = "/";
     });
   });
 });
